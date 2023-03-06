@@ -32,7 +32,7 @@ const Signup = () => {
       term,
     });
   };
-//
+  //
   const onChangePasswordCheck = (e) => {
     setPasswordError(e.target.value !== password);
     setPasswordCheck(e.target.value);
